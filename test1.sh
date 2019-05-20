@@ -19,20 +19,14 @@ echo "present working directory -----------"
 pwd
 
 
-sh  ./opt/apache-jmeter-5.1.1/bin/jmeter.sh -n -t ./GitHubJmeterTest.jmx -j ./result.log
+sh  ./opt/apache-jmeter-5.1.1/bin/jmeter.sh -n -t ./GitHubJmeterTest.jmx  -j ./result/result1.log
 
 echo "---------------------- Test End ----------------------------------- "
 
 pwd 
 
-echo "------------------- Move To Result Folder --------------------------"
-cd results
-
-
-echo "------------------- present working directory  ---------------------"
-pwd 
-
 echo "------------------ check For  Result File --------------------------"
+
 ls 
 
 echo "-------------------- End OF the Test  ------------------------------"
