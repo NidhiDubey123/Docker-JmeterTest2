@@ -23,10 +23,8 @@ echo "present working directory -----------"
 pwd
 
 
-<<<<<<< HEAD
-sh  ./opt/apache-jmeter-5.1.1/bin/jmeter.sh -n -t ./GitHubJmeterTest.jmx  -l ./results/result_$today.csv -j ./results/result_$today.log
-=======
+
 sh  ./opt/apache-jmeter-5.1.1/bin/jmeter.sh -n -t ./GitHubJmeterTest.jmx  -l ./results/jmeterdockertest2_$today.csv -j ./results/jmeterdockertest2_$today.log
->>>>>>> 131831d73d01ba7c1c627660ff118cf1cc0ad9c7
+
 
 echo "---------------------- Test End ----------------------------------- "
