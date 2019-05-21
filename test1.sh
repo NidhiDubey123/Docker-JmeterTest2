@@ -22,6 +22,3 @@ pwd
 sh  ./opt/apache-jmeter-5.1.1/bin/jmeter.sh -n -t ./GitHubJmeterTest.jmx  -j /result1.log
 
 echo "---------------------- Test End ----------------------------------- "
-
-
-
