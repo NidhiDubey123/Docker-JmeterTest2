@@ -23,12 +23,5 @@ sh  ./opt/apache-jmeter-5.1.1/bin/jmeter.sh -n -t ./GitHubJmeterTest.jmx  -j /re
 
 echo "---------------------- Test End ----------------------------------- "
 
-pwd 
-
-echo "------------------ check For  Result File --------------------------"
-
-ls 
-
-echo "-------------------- End OF the Test  ------------------------------"
 
 
