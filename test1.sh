@@ -22,7 +22,7 @@ echo "###### Running Test ##########"
 echo "present working directory -----------"
 pwd
 
-
+echo "-------------------------------------- "
 
 sh  ./opt/apache-jmeter-5.1.1/bin/jmeter.sh -n -t ./GitHubJmeterTest.jmx  -l ./results/jmeterdockertest2_$today.csv -j ./results/jmeterdockertest2_$today.log
 
